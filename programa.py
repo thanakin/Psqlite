@@ -1,7 +1,7 @@
 import sqlite3
 
 def conectar():
-    #Funcao para conectar ao banco de dados
+    #Função para conectar ao banco de dados
     conn = sqlite3.connect('psqlite3.geek')
 
     conn.execute(""" CREATE TABLE IF NOT EXISTS produtos(
@@ -110,3 +110,6 @@ def menu():
             print('Opcao invalida')
     else:
         print('Opcao invalida')
+
+
+
